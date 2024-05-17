@@ -74,16 +74,16 @@
         <li class="nav-item {{ request()->routeIs('/') ? 'activee' : '' }}">
             <a class="nav-link" href="{{ route('/')}}">Home</a>
         </li> 
-        <li class="nav-item {{ request()->routeIs('/') ? 'activee' : '' }}">
+        <li class="nav-item {{ request()->routeIs('') ? 'activee' : '' }}">
             <a class="nav-link" href="{{ route('/')}}">Co-Curricular</a>
         </li> 
-        <li class="nav-item {{ request()->routeIs('/') ? 'activee' : '' }}">
+        <li class="nav-item {{ request()->routeIs('') ? 'activee' : '' }}">
             <a class="nav-link" href="{{ route('/')}}">Teachers</a>
         </li> 
-        <li class="nav-item {{ request()->routeIs('/') ? 'activee' : '' }}">
+        <li class="nav-item {{ request()->routeIs('') ? 'activee' : '' }}">
             <a class="nav-link" href="{{ route('/')}}">Events</a>
         </li> 
-        <li class="nav-item {{ request()->routeIs('/') ? 'activee' : '' }}">
+        <li class="nav-item {{ request()->routeIs('') ? 'activee' : '' }}">
             <a class="nav-link" href="{{ route('/')}}">Contact</a>
         </li> 
         <li class="dropdown">
@@ -95,7 +95,7 @@
                 <li><a href="https://kenyademoschool.schooltry.com/student/login">Student</a></li>
             </ul>
         </li>
-        <li class="nav-item {{ request()->routeIs('/') ? 'activee' : '' }}" style="margin-right: 10px;">
+        <li class="nav-item {{ request()->routeIs('') ? 'activee' : '' }}" style="margin-right: 10px;">
             <a class="nav-link" href="{{ route('/')}}">
                 <i class="fa fa-lock"></i> <!-- Icon for admin login -->
             </a>
